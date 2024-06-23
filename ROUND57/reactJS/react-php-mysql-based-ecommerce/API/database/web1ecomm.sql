@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 24, 2024 at 10:30 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Generation Time: Apr 25, 2024 at 09:19 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -119,7 +119,8 @@ INSERT INTO `orderdetails` (`id`, `order_id`, `product_id`, `price`, `quantity`,
 (49, 14, 46, 60000.00, 3, '', '2023-11-21 09:50:08'),
 (50, 14, 50, 219990.00, 2, '', '2023-11-21 09:50:08'),
 (51, 14, 59, 195.00, 1, '', '2023-11-21 09:50:08'),
-(52, 14, 61, 50000.00, 10, '', '2023-11-21 09:50:08');
+(52, 14, 61, 50000.00, 10, '', '2023-11-21 09:50:08'),
+(85, 47, 79, 60000.00, 1, '', '2024-04-24 23:25:36');
 
 -- --------------------------------------------------------
 
@@ -157,7 +158,40 @@ INSERT INTO `orders` (`id`, `user_id`, `total`, `discount`, `comment`, `payment`
 (11, 25, 257199.50, 50.50, 'pathan', 'nogod', '123544', 'pr', '2022-12-30 04:37:36'),
 (12, 88, 63500.00, 25.00, 'dupor er pore delivery diben', 'bkash', 'dfgdfsgfdg', 'co', '2023-11-13 09:32:31'),
 (13, 88, 878200.00, 23.00, 'dsfgdsfgsdfg', 'bkash', 'dsfgdsfg', 'pe', '2023-11-21 09:46:34'),
-(14, 88, 6457600.00, 83.75, 'zvcxxzcvxzcv', 'nogod', 'sadgffdsagdfg', 'pe', '2023-11-21 09:50:08');
+(14, 88, 6457600.00, 83.75, 'zvcxxzcvxzcv', 'nogod', 'sadgffdsagdfg', 'pe', '2023-11-21 09:50:08'),
+(15, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:32:01'),
+(16, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:32:08'),
+(17, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:33:00'),
+(18, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:33:02'),
+(19, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:47:27'),
+(20, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:47:37'),
+(21, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:47:38'),
+(22, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:47:38'),
+(23, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:47:38'),
+(24, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:47:38'),
+(25, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:47:41'),
+(26, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:54:52'),
+(27, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:54:53'),
+(28, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:55:03'),
+(29, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:55:03'),
+(30, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:55:04'),
+(31, 1, 295000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:55:04'),
+(32, 1, 180000.00, 0.00, '', '', '', '', '2024-04-24 14:55:39'),
+(33, 1, 180000.00, 0.00, '', '', '', '', '2024-04-24 14:55:40'),
+(34, 1, 180000.00, 0.00, '', '', '', '', '2024-04-24 14:55:40'),
+(35, 1, 180000.00, 0.00, '', '', '', '', '2024-04-24 14:55:40'),
+(36, 1, 180000.00, 0.00, '', '', '', '', '2024-04-24 14:55:41'),
+(37, 1, 180000.00, 0.00, '', '', 'qqqqqqqq', '', '2024-04-24 14:58:47'),
+(38, 1, 180000.00, 0.00, '', '', 'bijoy', '', '2024-04-24 15:03:11'),
+(39, 1, 180000.00, 0.00, '', '', 'ytytyty', '', '2024-04-24 15:20:07'),
+(40, 1, 180000.00, 0.00, '', '', 'ytytyty', '', '2024-04-24 15:20:13'),
+(41, 1, 180000.00, 0.00, '', '', 'ytytyty', '', '2024-04-24 15:20:46'),
+(42, 1, 180000.00, 0.00, '', '', 'ytytyty', '', '2024-04-24 15:21:36'),
+(43, 1, 180000.00, 0.00, '', '', 'me me me', '', '2024-04-24 15:24:52'),
+(44, 1, 180000.00, 0.00, '', '', 'me me me', '', '2024-04-24 15:24:58'),
+(45, 1, 180000.00, 0.00, '', '', 'me me me', '', '2024-04-24 15:31:35'),
+(46, 1, 192000.00, 0.00, '', '', 'ooooooo', '', '2024-04-24 15:42:20'),
+(47, 1, 60000.00, 0.00, '', '', 'fgbnfghfg', '', '2024-04-24 23:25:36');
 
 -- --------------------------------------------------------
 
@@ -212,17 +246,33 @@ INSERT INTO `products` (`id`, `category_id`, `subcategory_id`, `name`, `descript
 (50, 2, 4, 'MackBook pro', 'jfkhgu', 'fgerkgjioe', 'productimages/63ae7b752cfa2.png', 219990.00, 2, 10, '1', '2022-12-30 05:47:33'),
 (51, 2, 4, 'Redmi Note8', 'Redmi', '654845', 'productimages/63ae7b859585d.png', 30000.00, 5, 12, '1', '2022-12-30 05:47:49'),
 (56, 2, 4, 'Watch', 'clock', '5458', 'productimages/63ae7bfeeb131.png', 200.00, 3, 5, '1', '2022-12-30 05:49:50'),
-(58, 2, 4, 'as', 'asf', 'bb', 'productimages/63ae7c773645e.png', 12000.00, 1, 20, '1', '2022-12-30 05:51:51'),
 (59, 2, 4, 'Samsung Galaxy Z Fold3 5G', 'htjkghjmg', 'ukyjm67uij', 'productimages/63ae7c91a4c26.png', 195.00, 21, 16, '1', '2022-12-30 05:52:17'),
 (61, 1, 2, 'laptop', 'agfd', 'aa', 'productimages/63ae7cd9c37a1.png', 50000.00, 1, 30, '1', '2022-12-30 05:53:29'),
 (65, 1, 1, 'apple', 'asg', 'ss', 'productimages/63ae7d231d6af.png', 1000000.00, 1, 50, '1', '2022-12-30 05:54:43'),
 (66, 1, 1, 'Smart SEL-32L22KS 32\" HD Basic LED Television', 'Resolution: HD (1360x768) Resolution\r\n2x HDMI, 1x USB, Audio Out\r\nMaterial: Plastic Fiber\r\nPicture Modes: Dynamic, Standard,Soft, User', 'gfnhjgghn gfhjdth', 'productimages/63ae7d28de59d.png', 14500.00, 14, 15, '1', '2022-12-30 05:54:48'),
 (68, 1, 1, 'laptop', 'jjyt', 'jj', 'productimages/63ae7d5292969.png', 50000.00, 2, 20, '1', '2022-12-30 05:55:30'),
-(70, 1, 2, 'man of steel', 'jiot', 'sup', 'productimages/63ae7dada67be.png', 400000.00, 1, 30, '1', '2022-12-30 05:57:01'),
+(70, 3, 2, 'man of steel', 'jiot', 'sup', 'productimages/63ae7dada67be.png', 400000.00, 1, 30, '1', '2022-12-30 05:57:01'),
 (71, 2, 4, 'Samsung', 'ewsfa', 'rtfsf', 'productimages/63ae7ddca3444.png', 200000.00, 1, 12, '0', '2022-12-30 05:57:48'),
 (72, 5, 5, 'The world Best Player Jersey', 'The world Best Player Jersey.Messi.', 'The world Best Player Jersey', 'productimages/63ae7f5c97821.png', 1000.00, 1, 5, '1', '2022-12-30 06:04:12'),
 (73, 1, 9, 'Asus vivobook 15 ', 'Ryzen7. 5700u\r\nRam 8Gb,512 gb ssd', 'Ananta er personal Laptop', 'productimages/63ae8b99e1e51.png', 82500.00, 1, 0, '1', '2022-12-30 06:56:25'),
-(76, 1, 1, 'wanton tv 80 inch', '80 inch wanton tv, taller than JUI', 'asdfgjkhfdg', 'productimages/435476537_449905384265522_1074333443312850543_n.jpg', 123123.00, 10, 123, '1', '2024-04-24 04:19:19');
+(79, 5, 5, 'Tamims Jersy', 'Tamims Jersy', 'TM-999', 'productimages/429989284_437062328852098_6824693603476983153_n.jpg', 1200.00, 50, 2000, '1', '2024-04-24 08:08:19'),
+(81, 6, 11, 'Australian cow', 'Australian Cow Now in BD', '234', 'productimages/cattle5.jpg', 90000.00, 10, 5000, '1', '2024-04-24 15:48:38'),
+(82, 3, 6, 'Men Coat', 'Italian', '456', 'productimages/men4.jpg', 10000.00, 100, 1000, '1', '2024-04-24 18:04:47'),
+(83, 4, 6, 'Shari', ' indian Shari', '654', 'productimages/women9.jpg', 13000.00, 100, 1000, '1', '2024-04-24 18:11:14'),
+(84, 1, 1, 'Monitor', 'Walton Monitor', 'TM-909', 'productimages/electronics5.jpg', 90000.00, 10, 1000, '1', '2024-04-25 18:23:44'),
+(85, 2, 2, 'Xiaomi Redme Note 9s', 'Xiaomi Redme Note 9s is chinese brand', 'rm-87', 'productimages/63ae7b859585d.png', 26000.00, 60, 2000, '1', '2024-04-25 18:25:10'),
+(86, 3, 6, 'Men cloth', 'Men cloth German style', '7867', 'productimages/men2.jpg', 10000.00, 30, 1000, '1', '2024-04-25 18:26:37'),
+(87, 4, 6, 'shari', 'Indian shari', '432', 'productimages/women9.jpg', 15000.00, 50, 1000, '1', '2024-04-25 18:27:38'),
+(88, 5, 7, 'Football', 'Football import from Argentina.', '7567', 'productimages/sports2.webp', 1500.00, 100, 100, '1', '2024-04-25 18:29:15'),
+(89, 6, 11, 'Holestein Freezian', 'Australian: Holestein Freezian', '57687', 'productimages/cattle5.jpg', 100000.00, 10, 5000, '1', '2024-04-25 18:30:27'),
+(90, 6, 11, 'Shahiwal', 'pakistan: import from pakistan.', '980', 'productimages/cattle3.jpeg', 90000.00, 10, 2000, '1', '2024-04-25 18:32:03'),
+(91, 6, 11, 'Mongolian cow', 'import from: Mongolia', '8645', 'productimages/cattle4.webp', 990000.00, 10, 2000, '1', '2024-04-25 18:33:30'),
+(92, 4, 6, 'Shari', 'Shari', '3423', 'productimages/women2.jpg', 10000.00, 100, 2000, '1', '2024-04-25 18:49:36'),
+(93, 4, 6, 'Shari', 'shari', '434', 'productimages/women1.jpg', 20000.00, 100, 1000, '1', '2024-04-25 18:50:17'),
+(94, 4, 6, 'Shari', 'Shari', '435', 'productimages/women11.jpg', 23000.00, 100, 5000, '1', '2024-04-25 18:51:05'),
+(95, 3, 6, 'Coat', 'Coat', '534653', 'productimages/men3.jpeg', 20000.00, 100, 1000, '1', '2024-04-25 18:52:09'),
+(96, 3, 6, 'Coat', 'Coat', '3432', 'productimages/men1.jpg', 10000.00, 10, 2000, '1', '2024-04-25 18:52:49'),
+(97, 3, 6, 'Coat', 'Coat', '4543', 'productimages/men6.jpg', 12000.00, 100, 2000, '1', '2024-04-25 18:53:21');
 
 -- --------------------------------------------------------
 
@@ -303,7 +353,9 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`, `role`, `created_at`
 (88, 'akhii', 'akhii@gmail.com', '$2y$10$TYQ557dTPFtPpNIjAyX.X.YQrlsOhm56Ep4E0DBLNKlXmlJMKZvi.', '1', '2023-11-13 09:30:34'),
 (89, 'newadmin', 'newadmin@gmail.com', '$2y$10$zmxEoh/ny3qbSKC86Bh18.BywAcPgboQOMUV3xtF4rEe5H2zXIIqy', '2', '2023-11-13 09:38:15'),
 (90, 'test', 'test77@gmail.com', '$2y$10$IfPi.eiqNN4Vj0t5qpYm8Ozfr044HCVnH3tnV59cM38DS.jNbYAga', '2', '2023-11-21 08:05:35'),
-(91, 'round57', 'round57@gmail.com', '$2y$10$V5ivEdoc8Ff6IOOJu8CKHOyH9bSBNSd7ivIFqcylPp43G6YDz0.UK', '2', '2024-04-24 03:39:45');
+(91, 'round57', 'round57@gmail.com', '$2y$10$V5ivEdoc8Ff6IOOJu8CKHOyH9bSBNSd7ivIFqcylPp43G6YDz0.UK', '2', '2024-04-24 03:39:45'),
+(92, 'mirinda', 'mirinda@gmail.com', '$2y$10$8sEKav6T/ujzZRTpSvfQK.RbZfUN1zUcxszSTbHN0iFl1mYq9aitu', '2', '2024-04-24 12:51:51'),
+(93, 'vijay', 'vijay@gmail.com', '$2y$10$99mc0fVTswvtgNKJWDeQGuBAyOgNXDvDHn/a3qS08S3Uulvxdcvle', '3', '2024-04-24 19:33:05');
 
 --
 -- Indexes for dumped tables
@@ -368,19 +420,19 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `orderdetails`
 --
 ALTER TABLE `orderdetails`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
 
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=99;
 
 --
 -- AUTO_INCREMENT for table `subcategories`
@@ -392,7 +444,7 @@ ALTER TABLE `subcategories`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=94;
 
 --
 -- Constraints for dumped tables
